@@ -17,7 +17,7 @@ ReviewManager is available through [CocoaPods](https://cocoapods.org). To instal
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'ReviewManager'
+pod ‘ReviewManager’, :git => ‘https://github.com/qichen0401/ReviewManager.git’
 ```
 
 ## Author
