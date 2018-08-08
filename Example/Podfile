@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ReviewManager_Example' do
+  pod 'ReviewManager', :path => '../'
+
+  target 'ReviewManager_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
