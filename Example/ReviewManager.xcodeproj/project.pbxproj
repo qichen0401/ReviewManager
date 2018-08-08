@@ -30,10 +30,10 @@
 /* Begin PBXFileReference section */
 		29CEDA53300571279574EF5F /* Pods_ReviewManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReviewManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D3B53761843D163CB33850F /* Pods-ReviewManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReviewManager_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReviewManager_Tests/Pods-ReviewManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		3AC421FF9DCE9DAA5C6CB6F5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		3AC421FF9DCE9DAA5C6CB6F5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		5172AA591A80899598383875 /* Pods-ReviewManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReviewManager_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReviewManager_Example/Pods-ReviewManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		5373C877692062E20D340003 /* Pods_ReviewManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReviewManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		545F4BE92E54FA5BE62A9D26 /* ReviewManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ReviewManager.podspec; path = ../ReviewManager.podspec; sourceTree = "<group>"; };
+		545F4BE92E54FA5BE62A9D26 /* ReviewManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ReviewManager.podspec; path = ../ReviewManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		607FACD01AFB9204008FA782 /* ReviewManager_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReviewManager_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -44,7 +44,7 @@
 		607FACE51AFB9204008FA782 /* ReviewManager_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReviewManager_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		85771049F7E4929F13B50F6A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		85771049F7E4929F13B50F6A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		DF823711F49313AC56CBC64F /* Pods-ReviewManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReviewManager_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReviewManager_Tests/Pods-ReviewManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		ED5B82ABD3F1AC5220724A8C /* Pods-ReviewManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReviewManager_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReviewManager_Example/Pods-ReviewManager_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */

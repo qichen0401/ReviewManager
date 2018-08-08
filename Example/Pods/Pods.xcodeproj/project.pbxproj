@@ -14,7 +14,7 @@
 		777D7B830351A477598D07CD59323988 /* ReviewManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A45CE4BFF5E121DA6031A8F5428F5C99 /* ReviewManager-dummy.m */; };
 		A355FF83078EB0B115E2FD24AEF71B8F /* Pods-ReviewManager_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 412E2FBFF659517E7616476CCD52EE37 /* Pods-ReviewManager_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AB36949251336DB92E23B181437F4506 /* Pods-ReviewManager_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C095FA700F374CA65E1E54247F14690 /* Pods-ReviewManager_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C0CEFFDC211A908A006B95C2 /* ReviewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CEFFDB211A908A006B95C2 /* ReviewManager.swift */; };
+		C0B1281A211ABA6200ECB324 /* ReviewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B12816211ABA6200ECB324 /* ReviewManager.swift */; };
 		DCCD073F514957AD395CF40E03880670 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		E13887BC366ECEDB964119C9BC0E8EF3 /* ReviewManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D9B3D88E6456DCBB8C2EE7841C0C02A /* ReviewManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -63,7 +63,7 @@
 		B7A88EBA43AED608D277887DE407028C /* Pods-ReviewManager_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ReviewManager_Example-frameworks.sh"; sourceTree = "<group>"; };
 		BC80685D90AF06BED19C8184274A5A64 /* Pods_ReviewManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReviewManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE89954AF46EFF94642419A47B21171C /* Pods-ReviewManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ReviewManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		C0CEFFDB211A908A006B95C2 /* ReviewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewManager.swift; sourceTree = "<group>"; };
+		C0B12816211ABA6200ECB324 /* ReviewManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewManager.swift; sourceTree = "<group>"; };
 		C2F6D662BBA2B3039B2A292F9C42540B /* Pods-ReviewManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ReviewManager_Tests.modulemap"; sourceTree = "<group>"; };
 		C31883AE0D10E66D94A12A026FEEBC90 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		C6981CAA3C00278D8A02DD3F153C6C71 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -180,6 +180,30 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		C0B12814211ABA6200ECB324 /* ReviewManager */ = {
+			isa = PBXGroup;
+			children = (
+				C0B12815211ABA6200ECB324 /* Classes */,
+				C0B12818211ABA6200ECB324 /* Assets */,
+			);
+			path = ReviewManager;
+			sourceTree = "<group>";
+		};
+		C0B12815211ABA6200ECB324 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C0B12816211ABA6200ECB324 /* ReviewManager.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		C0B12818211ABA6200ECB324 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
 		C44BF49E52B62159C4172E1FCB80BA01 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -219,7 +243,7 @@
 		E674D2EE47B1AE18257BD99B3CEE5057 /* ReviewManager */ = {
 			isa = PBXGroup;
 			children = (
-				C0CEFFDB211A908A006B95C2 /* ReviewManager.swift */,
+				C0B12814211ABA6200ECB324 /* ReviewManager */,
 				1B2E92DBBBE0F713C221528441699D47 /* Pod */,
 				63876B3B9BA414F23FFF63B886C7E3D7 /* Support Files */,
 			);
@@ -351,7 +375,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0CEFFDC211A908A006B95C2 /* ReviewManager.swift in Sources */,
+				C0B1281A211ABA6200ECB324 /* ReviewManager.swift in Sources */,
 				777D7B830351A477598D07CD59323988 /* ReviewManager-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
