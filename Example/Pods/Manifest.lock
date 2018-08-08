@@ -1,0 +1,16 @@
+PODS:
+  - ReviewManager (0.1.0)
+
+DEPENDENCIES:
+  - ReviewManager (from `../`)
+
+EXTERNAL SOURCES:
+  ReviewManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ReviewManager: ccebc56957b2cb6c5dab67c95107387bc43c097b
+
+PODFILE CHECKSUM: 9d697d57afd55f3c6f2ae25588eba2a265d596ef
+
+COCOAPODS: 1.5.3

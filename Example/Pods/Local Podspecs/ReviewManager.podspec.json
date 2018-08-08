@@ -1,0 +1,22 @@
+{
+  "name": "ReviewManager",
+  "version": "0.1.0",
+  "summary": "A short description of ReviewManager.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/qichen0401/ReviewManager",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "qichen0401": "qichen0401@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/qichen0401/ReviewManager.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ReviewManager/Classes/**/*"
+}

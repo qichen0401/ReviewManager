@@ -1,0 +1,6 @@
+framework module Pods_ReviewManager_Tests {
+  umbrella header "Pods-ReviewManager_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

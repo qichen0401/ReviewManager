@@ -1,0 +1,6 @@
+framework module ReviewManager {
+  umbrella header "ReviewManager-umbrella.h"
+
+  export *
+  module * { export * }
+}
