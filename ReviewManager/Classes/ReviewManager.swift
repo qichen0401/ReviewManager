@@ -33,7 +33,7 @@ public class ReviewManager: NSObject {
         case .tickOnAppOpen(let fireCount):
             self.fireCount = fireCount
             tick()
-            NotificationCenter.default.addObserver(self, selector: #selector(ReviewManager.tick), name: .UIApplicationWillEnterForeground, object: nil)
+            NotificationCenter.default.addObserver(self, selector: #selector(ReviewManager.tick), name: UIApplication.willEnterForegroundNotification, object: nil)
         case .tick(let fireCount):
             self.fireCount = fireCount
         case .request:
